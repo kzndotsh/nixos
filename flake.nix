@@ -11,6 +11,12 @@
       # Make sure Home Manager uses the same Nixpkgs package set defined above
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # Alejandra
+    alejandra = {
+      url = "github:kamadorueda/alejandra/3.0.0";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   # Define the outputs for the flake

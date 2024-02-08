@@ -2,7 +2,8 @@
   home.username = "kaizen";
   home.homeDirectory = "/home/kaizen";
 
-  home.packages = [];
+  home.packages = [
+  ];
 
   home.stateVersion = "23.11";
 
@@ -15,7 +16,7 @@
     extraConfig.init.defaultBranch = "main";
   };
 
-  programs.zsh = {
+  programs.eza = {
     enable = true;
   };
 }
