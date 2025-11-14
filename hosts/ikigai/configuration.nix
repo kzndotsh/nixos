@@ -11,7 +11,6 @@
   boot.loader.grub.useOSProber = true;
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
-
   virtualisation.vmware.guest.enable = true;
 
   networking.hostName = "ikigai";
@@ -70,7 +69,6 @@
   # services.xserver.libinput.enable = true;
 
   programs.zsh.enable = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.kaizen = {
     isNormalUser = true;
